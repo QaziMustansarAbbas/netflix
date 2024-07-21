@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>netflix homepage</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .main1{
+        border: 1px solid black;
+        width: 100%;
+        height: 700px;
+        background-image: url(background.png);
+        
+    }
+    #left{
+        float: left;
+        color: rgb(102, 4, 4);
+        font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+        font-size: 50px;
+        font-weight: 600;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    #right{
+        float: right;
+        margin-right: 100px;
+        margin-top: 30px;
+        padding: 20px;
+    }
+    button{
+        color: white;
+        background-color: red;
+        font-size: 16px;
+        border: none;
+        width: 85px;
+        border-radius: 5px;
+        height: 35px;
+    }
+    select{
+        color: white;
+        background: none;
+        font-size: 16px;
+        border: 1px solid white;
+        width: 130px;
+        border-radius: 5px;
+        height: 35px;
+        text-align: center;
+
+    }
+    #content{
+        text-align: center;
+        margin-top: 300px;
+        
+
+    }
+    h1{
+        font-size: 56px;
+        font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+        color: white;
+    
+    }
+    p{
+        font-size: 24px;
+        font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+        line-height: 50px;
+        color: white;
+    }
+    #account{
+    text-align: center;
+    
+    }
+    .input{
+        color: white;
+        background-color: red;
+        font-size: 16px;
+        border: 1px solid red;
+        width: 170px;
+        border-radius: 5px;
+        height: 57px;
+    }
+    input{
+        color: white;
+        background: transparent;
+        font-size: 16px;
+        border: 1px solid black;
+        width: 450px;
+        border-radius: 5px;
+        height: 55px;
+    }
+#hr{
+    width: 100%;
+    height: 8px;
+    background-color: grey;
+}
+
+
+.main2{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    
+}
+
+#left2{
+    border: 2px solid white;
+    width: 500px;
+    text-align: left;
+    margin-left: 140px;
+    margin-top: 150px;
+}
+#main3{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    
+}
+#left3{
+    
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin-top: 60px;
+    margin-left: 170px;
+    
+}    
+#right3{
+    
+    float: right;
+    width: 450px;
+    height: 400px;
+    margin-right: 180px;
+    margin-top: 120px;
+    
+
+}
+#main4{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    
+}
+#left4{
+    margin-left: 200px;
+    margin-top: 70px;
+}
+#main5{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    width: 100%;
+    height: 600px;
+    background-color: black;
+}
+#left5{
+    
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin-top: 60px;
+    margin-left: 130px;
+    
+}    
+#right5{
+    
+    float: right;
+    width: 500px;
+    height: 400px;
+    margin-right: 180px;
+    margin-top: 120px;
+    }
+#main6{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    width: 100%;
+    height: 1200px;
+    background-color: black;
+}
+#div2{
+    
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 950px;
+    height: 65px;
+    background-color: rgb(48, 44, 44);
+}
+#div3{
+    
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 950px;
+    height: 65px;
+    background-color: rgb(48, 44, 44);
+}
+#div4{
+    
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 950px;
+    height: 65px;
+    background-color: rgb(48, 44, 44);
+}
+#div5{
+    
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 950px;
+    height: 65px;
+    background-color: rgb(48, 44, 44);
+}
+#div6{
+    
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 950px;
+    height: 65px;
+    background-color: rgb(48, 44, 44);
+}
+#div7{
+    
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 950px;
+    height: 65px;
+    background-color: rgb(48, 44, 44);
+}
+#d1{
+    color: white;
+    float: left;
+    font-size: 32px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+#d2{
+    color: white;
+    float: right;
+    font-size: 52px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+
+</style>
+
+
+
+</head>
+<body>
+    <div class="main1">
+        <div id="left">
+            <img src="https://cdn.cookielaw.org/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png" alt="" width="300px" height="100px">
+        </div>
+        <div id="right">
+            <select name="language" id="">
+                <option value="english">English</option>
+                <option value="english">Urdu</option>
+                <option value="english">hindhi</option>
+                <option value="english">Bangali</option>
+            </select>
+            <button>Sign In</button>
+        </div>
+        <div id="content">
+            <h1>Unlimited films,TV programs and more</h1>
+            <p>Watch anywhere.Cancel at any time</p>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        </div>
+        <div id="account">
+            <input type="text" placeholder="Email address" >
+            <button class="input">Get Started ></button>
+        </div>
+        
+    </div>
+    <hr id="hr">
+    <div class="main2">
+        <div id="left2">
+            <h1 id="m2h1">Enjoy on your TV</h1>
+            <p id="p2">Watch on smart TVs, PlayStation, Xbox,<br> Chromecast, Apple TV, Blu-ray players and <br>more.</p>
+        </div>
+    </div>
+    <hr id="hr">
+    <div id="main3">
+        <div id="left3">
+       <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="" width="500px" height="400px">     
+        </div>
+
+
+        <div id="right3">
+            <h1>Download your <br> shows to watch <br>offline</h1>
+            <p>Save your favorites easily and always have <br>something to watch.</p>
+        </div>
+    </div>
+    <hr id="hr">
+    <div id="main4">
+       <div id="left4">
+         <h1>Watch <br>everywhere
+        </h1>
+        <p>Stream unlimited movies and TV <br>shows on your phone, tablet, laptop, <br> and TV.</p>
+         </div>
+    </div>
+    <hr id="hr">
+    <div id="main5">
+        <div id="left5">
+            <img src="pic1.png" alt="" style="width: 470px; height: 450px;">
+
+        </div>
+        <div id="right5">
+            <h1>Create profiles for <br> kids</h1>
+            <p>Send kids on adventures with their favorite <br>characters in a space made just for them—free <br>with your membership.</p>
+
+        </div>
+    </div>
+    <hr id="hr">
+    <div id="main6">
+      <div id="div1"><h1><center>Frequently Asked Questions</center></h1></div>
+      <div id="div2">
+        <div id="d1">What is Netflix?</div>
+        <div id="d2">+</div>
+      </div>
+      <div id="div3">
+        <div id="d1">How much does Netflix cost?</div>
+        <div id="d2">+</div>
+      </div>
+      <div id="div4">
+        <div id="d1">Where I can watch?</div>
+        <div id="d2">+</div>
+      </div>
+      <div id="div5">
+        <div id="d1">How do I cancel?</div>
+        <div id="d2">+</div>
+      </div>
+          <div id="div6"><div id="d1">What can I watch on Netflix?</div>
+          <div id="d2">+</div>
+    </div>
+      <div id="div7">
+        <div id="d1">Is Netflix good for kids?</div>
+        <div id="d2">+</div>
+      </div>
+      <div id="content">
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+    </div>
+    <div id="account">
+        <input type="text" placeholder="Email address" style="border: 1px solid white;">
+        <button class="input">Get Started ></button>
+    </div>
+
+
+
+    </div>
+</body>
+</html>
